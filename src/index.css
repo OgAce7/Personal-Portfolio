@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    border-color: #262A33;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  html, body, #root {
+    min-height: 100%;
+  }
+
+  body {
+    @apply bg-base text-ink font-body antialiased;
+    background-image: radial-gradient(ellipse 80% 50% at 50% -10%, rgba(234, 179, 8, 0.08), transparent);
+  }
+
+  ::selection {
+    background: #EAB308;
+    color: #0A0B0D;
+  }
+
+  :focus-visible {
+    outline: 2px solid #EAB308;
+    outline-offset: 3px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0A0B0D;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #262A33;
+    border-radius: 999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3a4050;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-base-elevated/60 backdrop-blur-xl border border-base-border;
+  }
+
+  .section-shell {
+    @apply mx-auto max-w-6xl px-6 sm:px-8 lg:px-12;
+  }
+
+  .eyebrow {
+    @apply font-mono text-xs tracking-widest uppercase text-accent flex items-center gap-2;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-xl bg-accent text-base font-semibold px-5 py-3
+    transition-all duration-300 hover:bg-accent-soft hover:shadow-[0_0_30px_-5px_rgba(234,179,8,0.6)]
+    active:scale-[0.97];
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 rounded-xl glass text-ink font-medium px-5 py-3
+    transition-all duration-300 hover:border-accent/50 hover:bg-base-elevated
+    active:scale-[0.97];
+  }
+
+  .card-hover {
+    @apply transition-all duration-500 hover:-translate-y-1.5 hover:border-accent/40;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
