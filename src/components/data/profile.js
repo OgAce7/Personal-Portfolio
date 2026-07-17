@@ -2,45 +2,44 @@
 // EDIT ME: This is your single source of truth for personal info.
 // ─────────────────────────────────────────────────────────
 export const profile = {
-  name: 'John Doe',
-  role: 'Software Engineer',
-  tagline: 'I build fast, reliable software and the systems behind it.',
-  location: 'Remote / Bengaluru, IN',
-  email: 'your@email.com',
-  phone: '+1 (555) 012-3456',
-  resumeUrl: '/resume.pdf',
+  name: 'Devansh Tiwari',
+  role: 'Computer Science Student',
+  tagline: 'I like exploring, learning and building various projects',
+  location: 'Remote / Delhi, IN',
+  email: 'devanshtiwari748@gmail.com',
+  phone: '+91-9953150860',
+  resumeUrl: '/Devansh Tiwari - Resume.pdf',
   availability: 'Open to new opportunities',
   socials: {
-    github: 'https://github.com/username',
-    linkedin: 'https://linkedin.com/in/username',
-    twitter: 'https://twitter.com/username',
-    email: 'mailto:your@email.com'
+    github: 'https://github.com/OgAce7',
+    linkedin: 'https://www.linkedin.com/in/devansh-tiwari-534432326/',
+    email: 'devanshtiwari748@gmail.com'
   }
 };
 
 export const aboutCopy = {
   heading: 'About',
   paragraphs: [
-    "I'm a software engineer who enjoys turning ambiguous problems into systems that are simple to reason about. My background spans backend infrastructure, distributed systems, and building the interfaces that sit on top of them.",
-    "Over the last few years I've worked across the stack — from designing APIs that hold up under load, to shipping the frontend that makes them usable. I care most about the parts of engineering people don't see: clean data models, sane error handling, and code a teammate can understand at 2am."
+    "I'm a Computer Science student passionate about building software at the intersection of AI, backend engineering and Machine Learning. I enjoy turning ideas into real products, whether it's an intelligent application, a scalable backend or a polished frontend experience.",
+    "Outside academics, I'm constantly exploring new technologies through hackathons and personal projects. Every project is an opportunity to learn something new, improve my skills and build solutions that create real impact."
   ]
 };
 
 export const strengths = [
   {
-    title: 'System design',
-    description: 'Designing services that scale predictably and fail gracefully under real load.'
+    title: 'Backend Development',
+    description: 'Building reliable APIs and backend systems using Python and FastAPI.'
   },
   {
-    title: 'Product sense',
-    description: 'Shipping features that solve the actual problem, not just the ticket.'
+    title: 'AI & Machine Learning',
+    description: 'Applying machine learning and modern AI tools to build practical applications.'
   },
   {
-    title: 'Clear communication',
-    description: 'Writing docs and PRs that save the next engineer time, including future me.'
+    title: 'Problem Solving',
+    description: 'Breaking complex problems into clean, practical, and maintainable solutions.'
   },
   {
-    title: 'Ownership',
-    description: 'Taking things from a rough idea through production, and staying with them.'
+    title: 'Rapid Learning',
+    description: 'Quickly adapting to new technologies and applying them through projects and hackathons.'
   }
 ];
