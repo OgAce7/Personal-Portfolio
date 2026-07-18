@@ -1,39 +1,37 @@
-// EDIT ME: Add/remove skills per category. `level` is 0-100 for the progress indicator.
 export const skillCategories = [
   {
     category: 'Languages',
     items: [
-      { name: 'JavaScript / TypeScript', level: 92 },
       { name: 'Python', level: 85 },
-      { name: 'Go', level: 70 },
-      { name: 'SQL', level: 80 }
+      { name: 'Java', level: 73 },
+      { name: 'C++', level: 71 },
+      { name: 'HTML & CSS', level: 84 }
     ]
   },
   {
-    category: 'Frontend',
+    category: 'Backend & APIs',
     items: [
-      { name: 'React', level: 90 },
-      { name: 'Next.js', level: 82 },
-      { name: 'Tailwind CSS', level: 88 },
-      { name: 'Framer Motion', level: 75 }
+      { name: 'FastAPI', level: 76 },
+      { name: 'REST APIs', level: 74 },
+      { name: 'MongoDB', level: 70 }
     ]
   },
   {
-    category: 'Backend',
+    category: 'AI & Data',
     items: [
-      { name: 'Node.js / Express', level: 88 },
-      { name: 'PostgreSQL', level: 80 },
-      { name: 'Redis', level: 72 },
-      { name: 'GraphQL', level: 68 }
+      { name: 'Scikit-learn', level: 82 },
+      { name: 'Pandas', level: 85 },
+      { name: 'NumPy', level: 78 },
+      { name: 'PyTorch', level: 71 }
     ]
   },
   {
-    category: 'Infrastructure',
+    category: 'Tools & Technologies',
     items: [
-      { name: 'Docker', level: 85 },
-      { name: 'AWS', level: 78 },
-      { name: 'CI/CD', level: 80 },
-      { name: 'Kubernetes', level: 60 }
+      { name: 'Git & GitHub', level: 77 },
+      { name: 'React', level: 69 },
+      { name: 'Tailwind CSS', level: 72 },
+      { name: 'Neo4j', level: 64 }
     ]
   }
 ];
