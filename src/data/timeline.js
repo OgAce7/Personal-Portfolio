@@ -1,5 +1,5 @@
 // EDIT ME: Work experience, in reverse-chronological order.
-/*export const experience = [
+export const experience = [
   {
     role: 'Senior Software Engineer',
     company: 'Nimbus Systems',
@@ -73,4 +73,3 @@ export const achievements = [
     description: 'Professional-level certification for designing distributed systems on AWS.'
   }
 ];
-*/
