@@ -1,4 +1,4 @@
-import { GraduationCap } from 'lucide-react';
+/*import { GraduationCap } from 'lucide-react';
 import Reveal from '../components/Reveal';
 import SectionHeading from '../components/SectionHeading';
 import { education } from '../data/timeline';
@@ -30,3 +30,4 @@ export default function Education() {
     </section>
   );
 }
+*/
