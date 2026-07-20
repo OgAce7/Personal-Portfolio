@@ -1,4 +1,4 @@
-import { Award } from 'lucide-react';
+/*import { Award } from 'lucide-react';
 import Reveal from '../components/Reveal';
 import SectionHeading from '../components/SectionHeading';
 import { achievements } from '../data/timeline';
@@ -31,3 +31,4 @@ export default function Achievements() {
     </section>
   );
 }
+*/
