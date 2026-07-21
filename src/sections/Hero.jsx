@@ -72,7 +72,7 @@ export default function Hero() {
           transition={{ delay: 0.7, duration: 0.6 }}
           className="mt-6 text-lg sm:text-xl text-ink-muted max-w-xl leading-relaxed"
         >
-          {profile.tagline} Currently focused on backend systems, developer tooling, and the interfaces built on top of them.
+          {profile.tagline} Currently focused on Machine Learning and AI. Always interested in learning and exploring new tech.
         </motion.p>
 
         <motion.div

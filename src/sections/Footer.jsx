@@ -5,7 +5,6 @@ import { profile } from '../data/profile';
 const socialLinks = [
   { icon: GithubIcon, href: profile.socials.github, label: 'GitHub' },
   { icon: LinkedinIcon, href: profile.socials.linkedin, label: 'LinkedIn' },
-  { icon: TwitterIcon, href: profile.socials.twitter, label: 'Twitter' },
   { icon: Mail, href: profile.socials.email, label: 'Email' }
 ];
 
