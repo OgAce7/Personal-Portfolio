@@ -1,5 +1,5 @@
 import { Mail, ArrowUp } from 'lucide-react';
-import { GithubIcon, LinkedinIcon, TwitterIcon } from '../components/BrandIcons';
+import { GithubIcon, LinkedinIcon} from '../components/BrandIcons';
 import { profile } from '../data/profile';
 
 const socialLinks = [

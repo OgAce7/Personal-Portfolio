@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Mail, Send, CheckCircle2 } from 'lucide-react';
-import { GithubIcon, LinkedinIcon, TwitterIcon } from '../components/BrandIcons';
+import { GithubIcon, LinkedinIcon } from '../components/BrandIcons';
 import Reveal from '../components/Reveal';
 import SectionHeading from '../components/SectionHeading';
 import { profile } from '../data/profile';
@@ -8,7 +8,6 @@ import { profile } from '../data/profile';
 const socialLinks = [
   { icon: GithubIcon, href: profile.socials.github, label: 'GitHub' },
   { icon: LinkedinIcon, href: profile.socials.linkedin, label: 'LinkedIn' },
-  { icon: TwitterIcon, href: profile.socials.twitter, label: 'Twitter' },
   { icon: Mail, href: profile.socials.email, label: 'Email' }
 ];
 
