@@ -37,16 +37,15 @@ export const experience = [
 // EDIT ME: Education history.
 export const education = [
   {
-    degree: 'B.Tech in Computer Science',
-    institution: 'Indian Institute of Technology',
-    period: '2017 — 2021',
-    detail: 'Graduated with honors. Focus on distributed systems and algorithms.'
+    degree: 'B.Tech in CSE Data Science',
+    institution: 'Manipal University Jaipur',
+    period: '2024-2028',
+    detail: 'Currently in 3rd year'
   },
   {
     degree: 'Higher Secondary Education',
-    institution: 'Delhi Public School',
-    period: '2015 — 2017',
-    detail: 'Science stream, Computer Science elective.'
+    institution: "St. Xavier's Sr. Sec. School",
+    period: 'Graduated in 2023',
   }
 ];
 
