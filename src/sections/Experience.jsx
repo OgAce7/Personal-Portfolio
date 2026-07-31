@@ -1,4 +1,4 @@
-/*import Reveal from '../components/Reveal';
+import Reveal from '../components/Reveal';
 import SectionHeading from '../components/SectionHeading';
 import { experience } from '../data/timeline';
 
@@ -46,4 +46,3 @@ export default function Experience() {
     </section>
   );
 }
-*/
