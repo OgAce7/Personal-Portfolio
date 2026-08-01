@@ -8,7 +8,7 @@ export const profile = {
   location: 'Remote / Delhi, IN',
   email: 'devanshtiwari748@gmail.com',
   phone: '+91-9953150860',
-  resumeUrl: '/Devansh_Tiwari_Resume.pdf',
+  resumeUrl: '/resume.pdf',
   availability: 'Open to new opportunities',
   socials: {
     github: 'https://github.com/OgAce7',
