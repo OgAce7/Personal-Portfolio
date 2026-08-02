@@ -1,9 +1,9 @@
 // EDIT ME: Replace with your real projects. `image` can point to /src/assets or an external URL.
 export const projects = [
   {
-    title: 'Orbit — Realtime Analytics Platform',
+    title: 'NeuroShield',
     description:
-      'A self-serve analytics platform ingesting millions of events per day, with sub-second dashboard queries and role-based data access.',
+      'A spam url and email detecting website',
     image: null,
     tech: ['React', 'Node.js', 'PostgreSQL', 'Redis', 'AWS'],
     github: 'https://github.com/username/orbit',
@@ -11,7 +11,7 @@ export const projects = [
     featured: true
   },
   {
-    title: 'Ledger — Personal Finance Tracker',
+    title: 'ARES - A',
     description:
       'A privacy-first finance tracker with automatic categorization, budget forecasting, and exportable reports.',
     image: null,
