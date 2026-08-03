@@ -5,19 +5,19 @@ export const projects = [
     description:
       'A spam url and email detecting website',
     image: null,
-    tech: ['React', 'Node.js', 'PostgreSQL', 'Redis', 'AWS'],
-    github: 'https://github.com/username/orbit',
-    live: 'https://orbit-demo.example.com',
+    tech: ['HTML', 'CSS', 'Python'],
+    github: 'https://github.com/OgAce7/NeuroShield',
+    //live: 'https://orbit-demo.example.com',
     featured: true
   },
   {
-    title: 'ARES - A',
+    title: 'ARES - Autonomous Resource Equilibrium System',
     description:
-      'A privacy-first finance tracker with automatic categorization, budget forecasting, and exportable reports.',
+      'An AI-assisted lunar habitat management platform for simulating, predicting, and optimizing critical life-support resources.',
     image: null,
-    tech: ['Next.js', 'TypeScript', 'Prisma', 'SQLite'],
-    github: 'https://github.com/username/ledger',
-    live: 'https://ledger-demo.example.com',
+    tech: ['FastAPI', 'React.js', 'Vite', 'Python'],
+    github: 'https://github.com/OgAce7/ARES',
+    //live: 'https://ledger-demo.example.com',
     featured: true
   },
   {
