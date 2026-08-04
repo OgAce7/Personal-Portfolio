@@ -14,7 +14,7 @@ export const projects = [
     description:
       'An AI-assisted lunar habitat management platform for simulating, predicting, and optimizing critical life-support resources.',
     image: null,
-    tech: ['FastAPI', 'React.js', 'Vite', 'Python', 'Framer Motion', 'lucide-react'],
+    tech: ['FastAPI', 'React.js', 'Vite', 'Python', 'Framer Motion', 'lucide-react', 'CSS', 'Pydantic', 'Uvicorn'],
     github: 'https://github.com/OgAce7/ARES',
     live: 'https://ares-alpha.vercel.app/',
     featured: true
